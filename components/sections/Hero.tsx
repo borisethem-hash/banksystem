@@ -19,10 +19,10 @@ const lineHref =
 const lineLinkIsExternal = /^https?:\/\//i.test(lineHref);
 
 const MV_SLIDE_META = [
-  { n: 1, alt: "金庫をトラックへ積み込む運搬作業" },
-  { n: 2, alt: "オフィス内での耐火金庫の設置作業" },
+  { n: 1, alt: "階段での大型金庫搬入作業（専用機材使用）" },
+  { n: 2, alt: "ご自宅への耐火金庫設置作業" },
   { n: 3, alt: "金庫の丁寧な運搬準備（機材と耐火金庫）" },
-  { n: 4, alt: "全国対応の配送トラック（幹線道路）" },
+  { n: 4, alt: "金庫のトラック積込・運搬作業" },
 ] as const;
 
 const MV_SLIDES = MV_SLIDE_META.map(({ n, alt }) => ({
